@@ -2,7 +2,7 @@
   "name": "Darryl-Leong",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://darryleong95.github.io/Darryl-Leong",
+  "homepage": "Darryl-Leong.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
