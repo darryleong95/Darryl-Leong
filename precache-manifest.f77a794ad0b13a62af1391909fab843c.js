@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c58943eb95f2b45ff6fcf4ceb0342bf5",
+    "revision": "b7a2a0c46d44eef9c41286bb831dc184",
     "url": "/Darryl-Leong/index.html"
   },
   {
-    "revision": "c21f63bcc5c5a42d7001",
+    "revision": "8858a0e5d95a3d8e114f",
     "url": "/Darryl-Leong/static/css/main.26ac1fcc.chunk.css"
   },
   {
-    "revision": "8ff50e43bf1dbdefea28",
-    "url": "/Darryl-Leong/static/js/2.d5bb4a84.chunk.js"
+    "revision": "5fbfaa3f3607af4385e5",
+    "url": "/Darryl-Leong/static/js/2.bfff730f.chunk.js"
   },
   {
-    "revision": "c21f63bcc5c5a42d7001",
-    "url": "/Darryl-Leong/static/js/main.8742bdc9.chunk.js"
+    "revision": "8858a0e5d95a3d8e114f",
+    "url": "/Darryl-Leong/static/js/main.077c3c0c.chunk.js"
   },
   {
-    "revision": "79429f2877d14d8cb430",
-    "url": "/Darryl-Leong/static/js/runtime~main.75516e3e.js"
+    "revision": "f35287a69a5028a90e89",
+    "url": "/Darryl-Leong/static/js/runtime~main.d204a249.js"
   },
   {
     "revision": "85e4028291e04c34b53e1e1684ccf805",
