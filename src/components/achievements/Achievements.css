@@ -1,0 +1,69 @@
+.achievements {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 249, 247);
+  padding: 50px 0px 50px 0px;
+  align-items: center;
+}
+
+.wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.indiv {
+  width: 50%;
+  
+}
+
+.indiv1 {
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.indiv-wrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.achievements-logoimg {
+  height: 17vh;
+  border-radius: 50%;
+}
+
+.ach-info-wrapper {
+  padding: 20px;
+}
+
+.ach-title {
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+.ach-info {
+  margin: 0px;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+  color: rgb(37, 182, 81);
+}
+
+.ach-write-up {
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  font-family: "Josefin Sans";
+  font-size: 1.1em;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}

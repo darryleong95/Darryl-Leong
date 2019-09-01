@@ -1,0 +1,41 @@
+.badges {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px 0px 50px 0px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.badges-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.badges-blocks {
+  width: 20%;
+  text-align: left;
+  align-content: space-between;
+}
+
+.badges-logoimg {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.badges-logo {
+  /* padding: 3vh 1vw 3vh 1vw; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-family: "Raleway";
+  color: rgb(63, 63, 63);
+}
