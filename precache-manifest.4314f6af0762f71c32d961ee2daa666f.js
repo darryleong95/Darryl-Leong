@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c4b138aba7cd2b6e8043a12fff088aa",
+    "revision": "cc1b2c57a158ff4c9232857787e9f49d",
     "url": "/Darryl-Leong/index.html"
   },
   {
-    "revision": "2be69713f7ec14c03c5c",
-    "url": "/Darryl-Leong/static/css/main.4285d993.chunk.css"
+    "revision": "0f976c3c13386c5d0b0c",
+    "url": "/Darryl-Leong/static/css/main.29c38fb0.chunk.css"
   },
   {
     "revision": "7539c088c92ab1d13aff",
     "url": "/Darryl-Leong/static/js/2.2947aa2b.chunk.js"
   },
   {
-    "revision": "2be69713f7ec14c03c5c",
+    "revision": "0f976c3c13386c5d0b0c",
     "url": "/Darryl-Leong/static/js/main.abe7cae9.chunk.js"
   },
   {
@@ -80,11 +80,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Darryl-Leong/static/media/sji.ec96328a.jpg"
   },
   {
-    "revision": "7e6508d8e087cdc6927d450ab0cbf92c",
-    "url": "/Darryl-Leong/static/media/skills.7e6508d8.png"
+    "revision": "1de637aa47409992ad8817f3a9622086",
+    "url": "/Darryl-Leong/static/media/skill-bg.1de637aa.png"
   },
   {
-    "revision": "e55dbdba8df6bd8b5fefa6358ed45893",
-    "url": "/Darryl-Leong/static/media/toolsbg.e55dbdba.jpg"
+    "revision": "7e6508d8e087cdc6927d450ab0cbf92c",
+    "url": "/Darryl-Leong/static/media/skills.7e6508d8.png"
   }
 ]);

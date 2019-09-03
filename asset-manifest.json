@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Darryl-Leong/static/css/main.4285d993.chunk.css",
+    "main.css": "/Darryl-Leong/static/css/main.29c38fb0.chunk.css",
     "main.js": "/Darryl-Leong/static/js/main.abe7cae9.chunk.js",
     "main.js.map": "/Darryl-Leong/static/js/main.abe7cae9.chunk.js.map",
     "runtime~main.js": "/Darryl-Leong/static/js/runtime~main.d204a249.js",
@@ -8,9 +8,9 @@
     "static/js/2.2947aa2b.chunk.js": "/Darryl-Leong/static/js/2.2947aa2b.chunk.js",
     "static/js/2.2947aa2b.chunk.js.map": "/Darryl-Leong/static/js/2.2947aa2b.chunk.js.map",
     "index.html": "/Darryl-Leong/index.html",
-    "precache-manifest.e980754e4ba769e0bb74ab0ad605fa78.js": "/Darryl-Leong/precache-manifest.e980754e4ba769e0bb74ab0ad605fa78.js",
+    "precache-manifest.4314f6af0762f71c32d961ee2daa666f.js": "/Darryl-Leong/precache-manifest.4314f6af0762f71c32d961ee2daa666f.js",
     "service-worker.js": "/Darryl-Leong/service-worker.js",
-    "static/css/main.4285d993.chunk.css.map": "/Darryl-Leong/static/css/main.4285d993.chunk.css.map",
+    "static/css/main.29c38fb0.chunk.css.map": "/Darryl-Leong/static/css/main.29c38fb0.chunk.css.map",
     "static/media/aws.png": "/Darryl-Leong/static/media/aws.85e40282.png",
     "static/media/App.css": "/Darryl-Leong/static/media/background.d94595fa.JPG",
     "static/media/bosch.jpg": "/Darryl-Leong/static/media/bosch.fb91037f.jpg",
@@ -26,7 +26,7 @@
     "static/media/sajc.jpg": "/Darryl-Leong/static/media/sajc.b9d6b0b9.jpg",
     "static/media/sif.png": "/Darryl-Leong/static/media/sif.d9f71733.png",
     "static/media/sji.jpg": "/Darryl-Leong/static/media/sji.ec96328a.jpg",
-    "static/media/skills.png": "/Darryl-Leong/static/media/skills.7e6508d8.png",
-    "static/media/Skills.css": "/Darryl-Leong/static/media/toolsbg.e55dbdba.jpg"
+    "static/media/Skills.css": "/Darryl-Leong/static/media/skill-bg.1de637aa.png",
+    "static/media/skills.png": "/Darryl-Leong/static/media/skills.7e6508d8.png"
   }
 }
