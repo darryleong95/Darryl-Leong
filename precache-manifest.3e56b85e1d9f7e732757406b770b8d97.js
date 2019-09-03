@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc1b2c57a158ff4c9232857787e9f49d",
+    "revision": "c049d260ffdd7022a7a1a2ec5a739ab1",
     "url": "/Darryl-Leong/index.html"
   },
   {
-    "revision": "0f976c3c13386c5d0b0c",
-    "url": "/Darryl-Leong/static/css/main.29c38fb0.chunk.css"
+    "revision": "719ad19dcc301394d563",
+    "url": "/Darryl-Leong/static/css/main.6bcbe2af.chunk.css"
   },
   {
     "revision": "7539c088c92ab1d13aff",
     "url": "/Darryl-Leong/static/js/2.2947aa2b.chunk.js"
   },
   {
-    "revision": "0f976c3c13386c5d0b0c",
-    "url": "/Darryl-Leong/static/js/main.abe7cae9.chunk.js"
+    "revision": "719ad19dcc301394d563",
+    "url": "/Darryl-Leong/static/js/main.f9a74ece.chunk.js"
   },
   {
     "revision": "f35287a69a5028a90e89",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "85e4028291e04c34b53e1e1684ccf805",
     "url": "/Darryl-Leong/static/media/aws.85e40282.png"
+  },
+  {
+    "revision": "f37428d0ae393f5d130cdb6c3ca5ce57",
+    "url": "/Darryl-Leong/static/media/background-ipad.f37428d0.jpg"
   },
   {
     "revision": "d94595fa09168fd1f47427dc822d4001",
