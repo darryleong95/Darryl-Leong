@@ -16,14 +16,15 @@
 }
 
 .badges-blocks {
-  width: 20%;
-  text-align: left;
-  align-content: space-between;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .badges-logoimg {
   width: 70%;
   border-radius: 50%;
+  margin: 0px;
 }
 
 .badges-logo {
@@ -33,9 +34,102 @@
 }
 
 .name {
+  margin: 0px;
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.3em;
   font-family: "Raleway";
   color: rgb(63, 63, 63);
+}
+
+@media only screen and (min-width: 768px) {
+  .badges {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .badges-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+  }
+
+  .badges-blocks {
+    width: 50vw;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .badges-logo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .badges-logoimg {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .name {
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-family: "Raleway";
+    color: rgb(63, 63, 63);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+    margin: 0 auto;
+  }
+
+  .badges-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+  }
+
+  .badges-blocks {
+    width: 33%;
+    text-align: left;
+    align-content: space-between;
+  }
+
+  .badges-logoimg {
+    width: 70%;
+    border-radius: 50%;
+  }
+
+  .badges-logo {
+    /* padding: 3vh 1vw 3vh 1vw; */
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .name {
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: "Raleway";
+    color: rgb(63, 63, 63);
+  }
 }

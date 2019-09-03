@@ -7,8 +7,8 @@ import "./Achievements.css";
 function Achievements() {
   return (
     <div className="achievements">
-      <div className="title-wrapper">
-        <h2>HACKATHONS & SUCH</h2>
+      <div className="title-wrapper-ach">
+        <h2>HACKS & SUCH</h2>
       </div>
       <div className="wrapper">
         <div className="indiv">
