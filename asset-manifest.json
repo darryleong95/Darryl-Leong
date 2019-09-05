@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Darryl-Leong/static/css/main.2ec70af2.chunk.css",
+    "main.css": "/Darryl-Leong/static/css/main.d16e8160.chunk.css",
     "main.js": "/Darryl-Leong/static/js/main.43b3170b.chunk.js",
     "main.js.map": "/Darryl-Leong/static/js/main.43b3170b.chunk.js.map",
     "runtime~main.js": "/Darryl-Leong/static/js/runtime~main.d204a249.js",
@@ -8,9 +8,9 @@
     "static/js/2.b984045e.chunk.js": "/Darryl-Leong/static/js/2.b984045e.chunk.js",
     "static/js/2.b984045e.chunk.js.map": "/Darryl-Leong/static/js/2.b984045e.chunk.js.map",
     "index.html": "/Darryl-Leong/index.html",
-    "precache-manifest.401c7d12d018dfbd660801bbff37d645.js": "/Darryl-Leong/precache-manifest.401c7d12d018dfbd660801bbff37d645.js",
+    "precache-manifest.7e2b18a84c6b6c5f4630e18cfe0e90ac.js": "/Darryl-Leong/precache-manifest.7e2b18a84c6b6c5f4630e18cfe0e90ac.js",
     "service-worker.js": "/Darryl-Leong/service-worker.js",
-    "static/css/main.2ec70af2.chunk.css.map": "/Darryl-Leong/static/css/main.2ec70af2.chunk.css.map",
+    "static/css/main.d16e8160.chunk.css.map": "/Darryl-Leong/static/css/main.d16e8160.chunk.css.map",
     "static/media/aws.png": "/Darryl-Leong/static/media/aws.a62dc609.png",
     "static/media/App.css": "/Darryl-Leong/static/media/background.5f56f34c.JPG",
     "static/media/bosch.jpg": "/Darryl-Leong/static/media/bosch.fb91037f.jpg",
