@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d8a407c5f6aef418ef0eeaec2b30860",
+    "revision": "3599649438c1c61afb19a79efd8f363b",
     "url": "/Darryl-Leong/index.html"
   },
   {
-    "revision": "2bed3d0ae2ed05081db1",
-    "url": "/Darryl-Leong/static/css/main.2bcf0839.chunk.css"
+    "revision": "f1cf14d17db3aada625e",
+    "url": "/Darryl-Leong/static/css/main.cb2f4729.chunk.css"
   },
   {
-    "revision": "0333a2fbbfba0ec83d2b",
-    "url": "/Darryl-Leong/static/js/2.61809840.chunk.js"
+    "revision": "3fd1c736c3425131a36c",
+    "url": "/Darryl-Leong/static/js/2.b984045e.chunk.js"
   },
   {
-    "revision": "2bed3d0ae2ed05081db1",
-    "url": "/Darryl-Leong/static/js/main.a7a3c31c.chunk.js"
+    "revision": "f1cf14d17db3aada625e",
+    "url": "/Darryl-Leong/static/js/main.43b3170b.chunk.js"
   },
   {
     "revision": "f35287a69a5028a90e89",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0b138f9c92286cf95df9d2f49d7873e",
     "url": "/Darryl-Leong/static/media/profile.f0b138f9.JPG"
+  },
+  {
+    "revision": "c4dbefbf450010474a0bc57df1ca9f82",
+    "url": "/Darryl-Leong/static/media/profilemobile.c4dbefbf.jpg"
   },
   {
     "revision": "06e26d915cb0b46b612d15d5874ef04b",
