@@ -1,0 +1,122 @@
+.dcs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 50px 0px;
+  align-items: center;
+
+  .dcs-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+  }
+
+  .dcs-img-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dcs-content {
+    padding: 20px;
+  }
+
+  .dcs-img {
+    width: 30vw;
+    height: 30vw;
+    padding: 20px;
+    border-radius: 50%;
+  }
+
+  .dcs-info-block {
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+
+  .dcs-info-block:hover {
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .dcs-content-title {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 1.3em;
+    margin: 0px;
+  }
+
+  .dcs-content-subtitle {
+    margin: 0px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(37, 182, 81);
+  }
+
+  .dcs-write-up {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    font-family: "Josefin Sans";
+    font-size: 1em;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .dcs-container {
+    .dcs-wrapper {
+      width: 80%;
+    }
+
+    .dcs-content-title {
+      font-size: 1.4em;
+    }
+
+    .dcs-content-subtitle {
+      font-size: 1em;
+    }
+
+    .dcs-write-up {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .dcs-container {
+    .dcs-wrapper {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .dcs-info-block {
+      box-sizing: border-box;
+      width: 45%;
+      display: inline-flex;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+    }
+
+    .dcs-img-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .dcs-img {
+      width: 7vw;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .dcs-content {
+      padding: 10px 30px;
+    }
+  }
+}

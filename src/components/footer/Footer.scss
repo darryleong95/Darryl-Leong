@@ -1,0 +1,151 @@
+.footer-container {
+  color: white;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  -webkit-animation: bgfooter 10s infinite;
+  animation: bgfooter 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+
+  .footer-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primary-wrapper {
+    padding: 10px 0px;
+  }
+
+  .primary-header {
+    font-size: 2em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .primary-text {
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+  }
+
+  .secondary-wrapper {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondary-header {
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .sm-contact-wrapper {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sm-contact-icon {
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+  }
+
+  .sm-contact-link {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .copyright {
+    padding: 20px 0px;
+  }
+}
+
+@keyframes bgfooter {
+  0% {
+    background-color: rgb(150, 206, 180);
+  }
+
+  30% {
+    background-color: rgb(207, 194, 140);
+  }
+
+  60% {
+    background-color: rgb(255, 111, 105);
+  }
+
+  90% {
+    background-color: rgb(255, 204, 92);
+  }
+
+  100% {
+    background-color: rgb(136, 216, 176);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-container {
+    .primary-wrapper {
+      padding: 20px 0px;
+    }
+
+    .primary-header {
+      font-size: 3em;
+      font-weight: 400;
+      padding-bottom: 10px;
+      color: rgb(255, 255, 255);
+    }
+
+    .primary-text {
+      font-family: "Josefin Sans";
+      text-align: center;
+      font-size: 1.2em;
+      color: rgb(255, 255, 255);
+    }
+
+    .secondary-wrapper {
+      padding: 20px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+
+    .secondary-header {
+      font-family: "Josefin Sans";
+      text-align: center;
+      font-size: 1.1em;
+    }
+
+    .sm-contact-icon {
+      font-size: 1.1em;
+      margin: 0px;
+      padding: 0px;
+      padding-right: 10px;
+    }
+
+    .sm-contact-link {
+      text-align: left;
+      font-size: 1em;
+      margin: 0px;
+      padding: 0px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

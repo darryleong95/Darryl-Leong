@@ -1,43 +1,45 @@
 import React from "react";
-import Introduction from "./components/introduction/Introduction";
-import Education from "./components/education/Education";
-import WorkExperience from "./components/workexperience/WorkExperience";
-import Skills from "./components/skills/Skills";
-import Involvements from "./components/involvements/Involvements";
-import Achievements from "./components/achievements/Achievements";
-import Badges from "./components/badges/Badges";
 
-import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import Banner from "./components/banner/Banner";
+import AboutMe from "./components/aboutme/AboutMe";
+import ImageSection from "./components/imagesection/ImageSection";
+import Badges from "./components/badges/Badges";
+import Footer from "./components/footer/Footer";
+
+import Skills from "./components/skills/Skill";
+
+import SingleColumnSection from "./components/singlecolumnsection/SingleColumnSection";
+import DualColumnSection from "./components/dualcolumnsection/DualColumnSection";
+
+import {
+  education,
+  workexperience,
+  involvements,
+  achievements,
+  skillsimg
+} from "./constants";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className="body">
+    <div className="app">
       <div className="header">
-        <div className="header-wrapper">
-          <h4 className="header-text-first">Hey, I'm</h4>
-          <h4 className="header-text-second">DARRYL LEONG</h4>
-          <div className="sm-wrapper">
-            <a className="sm-link" href="https://github.com/darryleong95" target="_blank"><FaGithub size="3em" className="sm-icon"/></a>
-            <a className="sm-link" href="https://www.instagram.com/darryleong/" target="_blank"><FaInstagram size="3em" className="sm-icon"/></a>
-            <a className="sm-link" href="https://www.facebook.com/darryl.v.leong" target="_blank"><FaFacebook size="3em" className="sm-icon"/></a>
-          </div>
-        </div>
+        <Banner />
       </div>
-      <div className="aboutme">
-        <Introduction />
-        <div className="background">
-          <Education />
-          <WorkExperience />
-          <Skills />
-          <Involvements />
-          <Achievements />
-          <Badges />
-        </div>
+      <div className="body">
+        <AboutMe />
+        <SingleColumnSection title="EDUCATION" bg="rgb(245, 245, 245)" sep_bg="rgb(245, 245, 245)" sep="rgb(190, 190, 190)" info={education} />
+        <SingleColumnSection title="CREDENTIALS" info={workexperience} />
+        <ImageSection title="TOOLKIT" img={skillsimg} bg="rgb(245, 245, 245)" sep_bg="rgb(245, 245, 245)" sep="rgb(190, 190, 190)" />
+        <Skills />
+        <SingleColumnSection title="INVOLVEMENTS" info={involvements} />
+        <DualColumnSection title="HACKS & SUCH" bg="rgb(245, 245, 245)" sep_bg="rgb(245, 245, 245)" sep="rgb(190, 190, 190)" info={achievements} blockbg="white" />
+        <Badges />
       </div>
-      {/* <div className="loves"></div>
-      <div className="blog"></div> */}
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

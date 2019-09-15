@@ -1,0 +1,76 @@
+.badges {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px 0px 50px 0px;
+  margin: 0 auto;
+  width: 90%;
+
+  .badges-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .badges-blocks {
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .badges-logoimg {
+    width: 30vw;
+    height: auto;
+    margin: 0px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+  }
+
+  .name {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-family: "Raleway";
+    color: rgb(63, 63, 63);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .badges {
+    width: 100%;
+
+    .badges-wrapper {
+      width: 90%;
+      flex-direction: row;
+      margin: 10px auto;
+      justify-content: space-evenly;
+    }
+
+    .badges-blocks {
+      width: 33%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 0;
+    }
+
+    .badges-logoimg {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .badges {
+    .badges-wrapper {
+      width: 60%;
+    }
+
+    .badges-blocks {
+      width: 33%;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+  }
+}

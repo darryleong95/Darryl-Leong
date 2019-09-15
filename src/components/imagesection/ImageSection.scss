@@ -1,0 +1,43 @@
+.is-container {
+  padding: 50px 0px 100px 0px;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ubuntu";
+
+  .is-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .is-img-wrapper {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .is-img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .is-container {
+    .is-img-wrapper {
+      width: 60%;
+    }
+
+    .is-img {
+      height: 40vh;
+      width: auto;
+    }
+  }
+}

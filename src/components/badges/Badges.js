@@ -1,30 +1,60 @@
 import React from "react";
-import aws from '../../assets/img/aws.png';
-import ica from '../../assets/img/ica.jpg';
-import "./Badges.css";
+import SectionHeader from "../sectionheader/SectionHeader";
+import { badges } from "../../constants";
+import "./Badges.scss";
 
-function Badges() {
-  return (
-    <div className="badges">
-      <div className="title-wrapper">
-        <h2>POKEMON BADGES</h2>
-      </div>
-      <div className="badges-wrapper">
-        <div className="badges-blocks">
-          <div className="badges-logo">
-            <img className="badges-logoimg" src={aws} />
-            <p className="name">AWS Solution Architect Associate</p>
-          </div>
+class Badges extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggle: false
+    };
+    this.container = React.createRef();
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const { top, bottom } = this.container.current.getBoundingClientRect();
+    if (top - window.innerHeight < 0 && bottom > 0) {
+      this.setState({
+        isToggle: true
+      });
+    }
+  };
+
+  render() {
+    return (
+      <div className="badges" ref={this.container}>
+        <SectionHeader
+          title="CERTIFICATIONS"
+          color="white"
+          toggle={this.state.isToggle}
+        />
+        <div className="badges-wrapper">
+          {badges.map(val => {
+            return (
+              <div
+                className={
+                  "badges-blocks " +
+                  (this.state.isToggle ? "content-animation" : null)
+                }
+              >
+                <img className="badges-logoimg" src={val.img} />
+                <p className="name">{val.name}</p>
+              </div>
+            );
+          })}
         </div>
-        <div className="badges-blocks">
-          <div className="badges-logo">
-            <img className="badges-logoimg" src={ica} />
-            <p className="name">ICAgile Professional</p>
-          </div>
-        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Badges;

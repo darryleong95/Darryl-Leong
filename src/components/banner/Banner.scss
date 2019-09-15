@@ -1,0 +1,108 @@
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header-text-first {
+      text-align: left;
+      color: white;
+      font-size: 50px;
+      font-style: italic;
+      font-weight: 300;
+      font-family: "Josefin Sans";
+      padding: 10px 0px 10px 0px;
+    }
+
+    .header-text-second {
+      margin: 0;
+      padding: 0;
+
+      color: rgb(255, 255, 255);
+      font-size: 60px;
+      font-weight: 700;
+      /* font-style: italic; */
+
+      padding: 30px 30px 20px 30px;
+      border: none;
+
+      -webkit-animation: bgcolor 10s infinite;
+      animation: bgcolor 10s infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+
+    @keyframes bgcolor {
+      0% {
+        background-color: rgb(150, 206, 180);
+      }
+
+      30% {
+        background-color: rgb(207, 194, 140);
+      }
+
+      60% {
+        background-color: rgb(255, 111, 105);
+      }
+
+      90% {
+        background-color: rgb(255, 204, 92);
+      }
+
+      100% {
+        background-color: rgb(136, 216, 176);
+      }
+    }
+
+    .sm-wrapper {
+      position: absolute;
+      bottom: 50px;
+    }
+
+    .sm-icon {
+      margin: 5px;
+      padding: 5px;
+
+      transition: 0.5s;
+      border-radius: 50%;
+
+      -webkit-animation: iconcolor 10s infinite;
+      animation: iconcolor 10s infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+
+    @keyframes iconcolor {
+      0% {
+        color: rgb(150, 206, 180);
+      }
+
+      30% {
+        color: rgb(207, 194, 140);
+      }
+
+      60% {
+        color: rgb(255, 111, 105);
+      }
+
+      90% {
+        color: rgb(255, 204, 92);
+      }
+
+      100% {
+        color: rgb(136, 216, 176);
+      }
+    }
+
+    .sm-icon:hover {
+      cursor: pointer;
+      color: white;
+      background-color: rgb(255, 255, 255);
+      transition: 0.5s;
+    }
+  }
+}

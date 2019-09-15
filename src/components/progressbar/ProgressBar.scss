@@ -1,0 +1,46 @@
+.progress-bar-container {
+  width: 80%;
+  padding: 10px 0px;
+
+  .progress-bar-wrapper {
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .progress-bar {
+    height: 1em;
+    background-color: rgb(250, 207, 80);
+    transition: 3s;
+    border-radius: 5px;
+    width: 0%;
+  }
+
+  .skill-name {
+    padding-bottom: 5px;
+    margin: 0px;
+    font-family: "Raleway";
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .progress-bar-container {
+    width: 40%;
+    padding: 20px;
+    .skill-name {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .progress-bar-container {
+    width: 40%;
+    padding: 20px;
+    .skill-name {
+      font-size: 17px;
+      font-family: "Raleway";
+      font-weight: 300;
+    }
+  }
+}
