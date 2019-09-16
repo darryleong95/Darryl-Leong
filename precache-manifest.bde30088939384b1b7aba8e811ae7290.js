@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "976453adf95b53d2101ba3237c7c6711",
+    "revision": "9d281265914df1b07dc54961e3725675",
     "url": "/Darryl-Leong/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Darryl-Leong/static/css/2.22921dbe.chunk.css"
   },
   {
-    "revision": "731ccac2d395f14cbaa0",
+    "revision": "b23b30affbd92f39cf7b",
     "url": "/Darryl-Leong/static/css/main.1d7ff0b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Darryl-Leong/static/js/2.ebc8c751.chunk.js"
   },
   {
-    "revision": "731ccac2d395f14cbaa0",
-    "url": "/Darryl-Leong/static/js/main.2b2207bc.chunk.js"
+    "revision": "b23b30affbd92f39cf7b",
+    "url": "/Darryl-Leong/static/js/main.6da407a7.chunk.js"
   },
   {
     "revision": "0d21e124eaf67242c2a7",
